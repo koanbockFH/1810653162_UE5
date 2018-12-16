@@ -11,23 +11,25 @@ public class Aufgabe_4
         String input3 = JOptionPane.showInputDialog("Gimme something");
 
         boolean anyEqual = false;
-        if(input1 == input2){
-            anyEqual = true;
-        }
-        else if(input1 == input3)
+        if (input1.equals(input2))
         {
             anyEqual = true;
         }
-        else if(input2 == input3)
+        else if (input1.equals(input3))
+        {
+            anyEqual = true;
+        }
+        else if (input2.equals(input3))
         {
             anyEqual = true;
         }
 
-        if(anyEqual)
+        if (anyEqual)
         {
             System.out.println("Sie haben mind. 2 gleiche Werte eingegeben");
         }
-        else{
+        else
+        {
             System.out.println("Sie haben keine gleichen Werte eingegeben");
         }
     }

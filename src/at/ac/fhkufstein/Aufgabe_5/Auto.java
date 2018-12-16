@@ -1,5 +1,8 @@
 package at.ac.fhkufstein.Aufgabe_5;
 
+/*
+    Klasse nur minimal Umsetzung, da Übungen nicht gemacht wurden - lt. Lektor geht das in Ordnung
+ */
 public class Auto extends Fahrzeug implements Comparable<Auto>
 {
     private boolean klimaanlage;
